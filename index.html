@@ -14,64 +14,260 @@
 
 <body>
     <div class="grid__container">
+
+        <!--navbar-->
+
         <div class="navbar">
             <div class="navbar__logo">
-                <i class="fas fa-image"></i>
-                <b>Unsplash</b>
-            </div>
-            <div class="navbar__search">
-                <input type="text" placeholder="breakfast">
-            </div>
-            <ul>
-                <li>Collections</li>
-                <li>Explore</li>
-                <li>Sumbit a photo</li>
-                <li>Login</li>
-                <li>Join free</li>
-            </ul>
-        </div>
-        <div class="content__container">
-            <div class="text__area">
-                <h1>Breakfast pictures</h1>
-                <br>
-                <p>3,111 free breakfast pictures</p>
-                <button>3.1K Photos</button>
-                <button>1.6K Collections</button>
-                <button>5 Users</button>
-            </div>
-            <div class="photo__area">
-                <div class="photo__area__content">
-                    <img src="./src/img/001.jpg" alt="">
-                    <div class="photo__area__like">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                </div>
-                <div class="photo__area__content">
-                    <img src="./src/img/002.jpg" alt="">
-                    <div class="photo__area__like">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                </div>
-                <div class="photo__area__content">
-                    <img src="./src/img/003.jpg" alt="">
-                    <div class="photo__area__like">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                </div>
-                <div class="photo__area__content">
-                    <img src="./src/img/004.jpg" alt="">
-                    <div class="photo__area__like">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                </div>
-                <div class="photo__area__content">
-                    <img src="./src/img/005.jpg" alt="">
-                    <div class="photo__area__like">
-                        <i class="fas fa-heart"></i>
-                    </div>
+                <!-- <img src="./src/img/logo.png" alt=""> -->
+                <div class="fake__logo__img"></div>
+                <div class="navbar__logo__text">
+                    <b>Unsplash</b>
+                    <p>Photos for everyone</p>
                 </div>
             </div>
 
+            <div class="navbar__search">
+                <input type="text" placeholder="breakfast">
+            </div>
+
+            <div class="navbar__menu">
+                <ul>
+                    <li>Collections</li>
+                    <li>Explore</li>
+                    <li><i class="fas fa-ellipsis-h"></i></li>
+                    <li class="menu__submit">Submit a photo</li>
+                    <li>Login</li>
+                    <li class="menu__join">Join free</li>
+                </ul>
+            </div>
+        </div>
+
+        <!--title-->
+
+        <div class="title__area">
+            <h1>Breakfast pictures</h1>
+            <br>
+            <h4>3,111 free breakfast pictures</h4>
+            <button>3.1K Photos</button>
+            <button>1.6K Collections</button>
+            <button>5 Users</button>
+        </div>
+
+        <!--pictures-->
+        <div class="pictures__area">
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/001.jpg" alt=""></div>
+                <p class="pictures__description">fruit salad on gray bowls</p>
+                <div class="pictures__hashtag">
+                    <p>Food</p>
+                    <p>Flat Lay</p>
+                    <p>Meal</p>
+                </div>
+            </div>
+
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/002.jpg" alt=""></div>
+                <p class="pictures__description">round white ceramic plate filled with waffle</p>
+                <div class="pictures__hashtag">
+                    <p>Food</p>
+                    <p>Table</p>
+                    <p>Waffles</p>
+                </div>
+            </div>
+
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/003.jpg" alt=""></div>
+                <p class="pictures__description">bread with sunny side-up egg served on white ceramic plate</p>
+                <div class="pictures__hashtag">
+                    <p>bread</p>
+                    <p>egg</p>
+                    <p>Avocado Toast</p>
+                </div>
+            </div>
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/004.jpg" alt=""></div>
+                <p class="pictures__description">assorted bread with coffee and drinks</p>
+                <div class="pictures__hashtag">
+                    <p>Coffee</p>
+                    <p>Drink</p>
+                    <p>Croissant</p>
+                </div>
+            </div>
+
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/005.jpg" alt=""></div>
+                <p class="pictures__description">cup of latte and sliced breads</p>
+                <div class="pictures__hashtag">
+                    <p>Cup</p>
+                    <p>Chair</p>
+                    <p>Spoon</p>
+                </div>
+            </div>
+
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/006.jpg" alt=""></div>
+                <p class="pictures__description">croissant on top of stainless steel tray</p>
+                <div class="pictures__hashtag">
+                    <p>Croissant</p>
+                    <p>Food</p>
+                    <p>Bread</p>
+                </div>
+            </div>
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/007.jpg" alt=""></div>
+                <!-- <p class="pictures__description">Description</p> -->
+                <div class="pictures__hashtag">
+                    <p>Food</p>
+                    <p>Topdown</p>
+                    <p>Fruit</p>
+                </div>
+            </div>
+
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/008.jpg" alt=""></div>
+                <!-- <p class="pictures__description">Description</p> -->
+                <div class="pictures__hashtag">
+                    <p>Table</p>
+                    <p>Food</p>
+                    <p>Fruit</p>
+                </div>
+            </div>
+
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/009.jpg" alt=""></div>
+                <p class="pictures__description">toast bread with blueberry on black plate
+
+                </p>
+                <div class="pictures__hashtag">
+                    <p>Blueberry</p>
+                    <p>Banana</p>
+                    <p>French Toast</p>
+                </div>
+            </div>
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/010.jpg" alt=""></div>
+                <p class="pictures__description">vegetable and meat and with bread dishes</p>
+                <div class="pictures__hashtag">
+                    <p>Food</p>
+                    <p>Vegetables</p>
+                    <p>Meat</p>
+                </div>
+            </div>
+
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/011.jpg" alt=""></div>
+                <p class="pictures__description">sunny side-up egg on white ceramic plate beside stainless steel butter
+                    knife and fork</p>
+                <div class="pictures__hashtag">
+                    <p>Egg</p>
+                    <p>Food</p>
+                    <p>Plate</p>
+                </div>
+            </div>
+
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/012.jpg" alt=""></div>
+                <p class="pictures__description">flat-lay photography of lettuce with fried egg and flatbread</p>
+                <div class="pictures__hashtag">
+                    <p>Food</p>
+                    <p>Rice Cake</p>
+                    <p>Flat Lay</p>
+                </div>
+            </div>
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/013.jpg" alt=""></div>
+                <p class="pictures__description">waffles on plate near fried chickens and drinks
+
+                </p>
+                <div class="pictures__hashtag">
+                    <p>Food</p>
+                    <p>Meal</p>
+                    <p>Table</p>
+                </div>
+            </div>
+
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/014.jpg" alt=""></div>
+                <p class="pictures__description">flat lay photography of white mug on white saucer plate and croshan
+                    bread</p>
+                <div class="pictures__hashtag">
+                    <p>Coffee</p>
+                    <p>Croissant</p>
+                    <p>Cappuccino</p>
+                </div>
+            </div>
+
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/015.jpg" alt=""></div>
+                <p class="pictures__description">selective focus photography of pink petaled daisy flower in vase
+
+                </p>
+                <div class="pictures__hashtag">
+                    <p>Pink Plate</p>
+                    <p>Food</p>
+                    <p>Table</p>
+                </div>
+            </div>
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/016.jpg" alt=""></div>
+                <p class="pictures__description">baked pancake and egg scramble on plate
+
+                </p>
+                <div class="pictures__hashtag">
+                    <p>Panckae</p>
+                    <p>Egg</p>
+                    <p>Food</p>
+                </div>
+            </div>
+
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/017.jpg" alt=""></div>
+                <p class="pictures__description">photo of waffles beside bowls of strawberries, banana, and black
+                    berries
+
+                </p>
+                <div class="pictures__hashtag">
+                    <p>Berries</p>
+                    <p>Sweets</p>
+                    <p>Waffles</p>
+                </div>
+            </div>
+
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/018.jpg" alt=""></div>
+                <p class="pictures__description">aerial photography of cafe latte on table
+
+                </p>
+                <div class="pictures__hashtag">
+                    <p>Latte</p>
+                    <p>Cafe</p>
+                    <p>Food</p>
+                </div>
+            </div>
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/019.jpg" alt=""></div>
+                <p class="pictures__description">vegetable salad served on plate
+
+                </p>
+                <div class="pictures__hashtag">
+                    <p>Food</p>
+                    <p>Salad</p>
+                    <p>Vegetable</p>
+                </div>
+            </div>
+
+            <div class="pictures__content">
+                <div class="pictures__img"> <img src="./src/img/020.jpg" alt=""></div>
+                <p class="pictures__description">flatlay photography of five latte cups
+
+                </p>
+                <div class="pictures__hashtag">
+                    <p>Flat Lay</p>
+                    <p>Cups</p>
+                    <p>Coffee</p>
+                </div>
+            </div>
 
 
 
